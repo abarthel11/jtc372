@@ -1,0 +1,17 @@
+#top {
+	width: 800px;
+	background-color: aquamarine;
+}
+
+#top p {
+	font-family: Helvetica;
+}
+
+#bottom {
+	width: 600px;
+	background-color: antiquewhite;
+}
+
+#bottom p {
+	font-family: Georgia;
+}
