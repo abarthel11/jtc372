@@ -1,0 +1,65 @@
+body{
+    background-image: url("/exercises/images/page_bg.png");
+    background-repeat: repeat-x;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+#wrapper{
+    margin: auto;
+    width: 900px;
+    padding: 10px;
+    border: 2px solid #d5d4d2;
+    background-color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #867664;
+    font-weight: bold;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #8EC4E4;
+    margin-bottom: 10px;
+}
+#banner img{
+    padding: 10px;
+}
+
+aside{
+    background-color: #D8EAF5;
+    float: right;
+    width: 200%;
+    
+}
+aside h1{
+    padding-left: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+aside a{
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: .9em;
+}
+main{
+    float: left;
+    padding: 10px;
+}
+main h1{
+    font-size: 1.2em;
+    margin-top: 0;
+}
+#content{
+    display: flex;  
+
+}

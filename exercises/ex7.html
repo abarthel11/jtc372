@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Set viewport  -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Exercise 7 - Responsive Design Example</title>
+
+	<!-- Main style sheet  -->
+
+	<link href="css/wide.css" rel="stylesheet" type="text/css">
+
+	<!-- Narrow style sheet  -->
+
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+	<!-- Link to jquery  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Controls function of hamburger menu  -->
+
+	<script>
+		$(document).ready(function() {
+			$(".cross").hide();
+			$(".menu").hide();
+			$(".hamburger").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".hamburger").hide();
+					$(".cross").show();
+				});
+			});
+
+			$(".cross").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".cross").hide();
+					$(".hamburger").show();
+				});
+			});
+		});
+
+	</script>
+
+
+	<div id="wrapper">
+
+		<header><a href="#"><img src="https://jtc372.net/course/exercises-finished/images/generic-header.png" alt="Generic Header Graphic"></a></header>
+
+		<nav>
+
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Irma Bar &amp; Grill</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Map</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+		</nav>
+
+		<!-- Hamburger menu controls -->
+
+		<div id="mobile">
+			<button class="hamburger">&#x2261;</button>
+			<button class="cross">x</button>
+		</div>
+
+		<!-- Hamburger menu options  -->
+
+		<div class="menu">
+
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Irma Bar &amp; Grill</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Map</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<main>
+
+				<img src="https://jtc372.net/course/exercises-finished/images/irmagrill.jpg" alt="Irma Bar and Grill">
+
+				<h1>First Header</h1>
+
+				<p>Ad iriure esse, camur, usitas diam autem mauris
+					exerci hendrerit consequat, ventosus macto. At,
+					amet, eu, epulae, fere, paulatim nutus uxor quae
+					luctus. Os nulla tation dolor bis os feugiat.
+					Amet camur augue bis quae incassum dolus. Vel gravis duis
+					jugis luptatum abluo gilvus tamen, laoreet. Quae
+					mos facilisi luptatum erat nostrud sino. </p>
+
+				<p>Tation neque facilisis letalis duis distineo amet ex luctus et minim,
+					diam. Virtus eligo valetudo nibh accumsan demoveo, gemino antehabeo volutpat,
+					indoles. Commodo eu damnum ea gemino jugis aliquam modo amet iriure in
+					te luptatum mara luptatum. Gravis fere incassum, secundum pala, si, ad</p>
+
+				<h1>Second header</h1>
+
+				<p>Saluto te nisl iusto quadrum lenis, vel ullamcorper decet ex, duis capio. </p>
+
+				<p>Probo, ut conventio antehabeo modo nisl eros ut fatua aptent magna abico
+					persto. Sino laoreet jugis autem, secundum, comis, in blandit sino wisi,
+					ibidem nonummy. Capio, autem macto dignissim ut praesent consequat, jugis
+					minim verto, proprius. Meus probo, acsi sed genitus iustum odio iusto
+					ad loquor, ut ut jumentum.</p>
+
+			</main>
+
+			<aside id="sidebar">
+
+				<h3>First sidebar header</h3>
+
+				<ul>
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+					<li><a href="#">Link 5</a></li>
+				</ul>
+
+				<h3>Second sidebar header</h3>
+
+				<ul>
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+					<li><a href="#">Link 5</a></li>
+				</ul>
+
+			</aside>
+
+		</div>
+
+		<footer>Copyright 2018</footer>
+
+	</div>
+
+</body>
+
+</html>

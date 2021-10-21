@@ -1,0 +1,98 @@
+nav {
+	display: none;
+}
+
+
+#mobile {
+	display: block;
+	background: #006;
+}
+
+
+
+.menu {
+	display: block;
+	width: 95%;
+	margin: 10px auto;
+}
+
+#content {flex-direction: column;}
+
+main {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sidebar {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Styles for hamburger menu */
+
+#mobile button {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 3px;
+}
+
+.hamburger {
+	display: block;
+	background: none;
+	color: #fff;
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 2000;
+}
+
+.cross {
+	display: block;
+	background: none;
+	color: #fff;
+	border: none;
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 2000;
+}
+
+.menu {
+	z-index: 1000;
+	font-weight: bold;
+	width: 97%;
+	background: #f1f1f1;
+	position: absolute;
+	text-align: center;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu li {
+	background: #ffffff;
+	padding: 15px 0;
+	border-bottom: #dddddd 1px solid;
+}
+
+.menu li:hover {
+	background: #ffffff;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #006;
+}
+
+.menu a:hover {
+	color: #666;
+}

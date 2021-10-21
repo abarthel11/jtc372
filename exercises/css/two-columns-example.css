@@ -1,0 +1,34 @@
+#wrapper {}
+
+header {
+	background: #f9c;
+	padding: 10px;
+}
+
+nav {
+	background: #3fc;
+}
+
+nav ul {}
+
+nav li {}
+
+#content {
+	background: red;
+
+}
+
+main {
+	background-color: aqua;
+}
+
+aside {
+	background: green;
+
+}
+
+footer {
+
+	background: #f93;
+
+}
