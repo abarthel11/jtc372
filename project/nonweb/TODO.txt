@@ -1,0 +1,9 @@
+
+3. Color of hamburger for Contact and Gallery
+4. Spacing of content
+5. Footer update
+7. Images squoosh
+8. responsive design
+
+6. Contact Page working
+2. Gallery jQuery Loads new galleries

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Barthel Land and Cattle | Colorado and Nebraska Beef</title>
+		<link
+			rel="shortcut icon"
+			href="./images/BarthelWhite.svg"
+			type="image/x-icon"
+		/>
+		<!-- Wide -->
+		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- Medium -->
+		<link
+			rel="stylesheet"
+			media="only screen and (max-width:1330px)"
+			href="./css/stylesMedium.css"
+		/>
+		<!-- Narrow -->
+		<link
+			rel="stylesheet"
+			media="only screen and (max-width:970px)"
+			href="./css/stylesNarrow.css"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="landingHome">
+				<header>
+					<div class="logo">
+						<a href="./index.html#">
+							<img
+								id="navLogoImg"
+								src="./images/BarthelBlack.svg"
+								alt="Barthel Land and Cattle"
+							/>
+						</a>
+					</div>
+
+					<!-- Regular Nav -->
+					<nav>
+						<ul>
+							<li>
+								<a href="./index.html#" class="current-page"
+									>HOME</a
+								>
+							</li>
+							<li><a href="./about.html">ABOUT</a></li>
+							<li><a href="./contact.html">CONTACT</a></li>
+							<li><a href="./gallery.html">GALLERY</a></li>
+							<li><a href="./events.html">EVENTS</a></li>
+						</ul>
+					</nav>
+
+					<!-- Mobile nav -->
+					<div id="menu">
+						<ul>
+							<li><a href="./index.html#">HOME</a></li>
+							<li><a href="./about.html">ABOUT</a></li>
+							<li><a href="./contact.html">CONTACT</a></li>
+							<li><a href="./gallery.html">GALLERY</a></li>
+							<li><a href="./events.html">EVENTS</a></li>
+						</ul>
+					</div>
+					<div id="hamburger-menu">
+						<div class="bar" id="top-bar"></div>
+						<div class="bar" id="mid-bar"></div>
+						<div class="bar" id="bot-bar"></div>
+					</div>
+				</header>
+				<div id="scroll-down">
+					<span class="arrow-down"> </span>
+					<span id="scroll-title"> Scroll down </span>
+				</div>
+			</div>
+			<div class="content">
+				<div class="mid-section">
+					<img
+						src="./images/BarthelWhite.svg"
+						height="150"
+						class="body-logo"
+						alt="Barthel Land and Cattle"
+					/>
+
+					<hr class="hr1" />
+					<div class="cta">
+						<h1 class="cta-content">
+							At Barthel Land &amp; Cattle, faith, hard-work and
+							integrity mark a family's legacy. By focusing on
+							these things they are able to supply high quality
+							beef across the states of Colorado and Nebraska.
+						</h1>
+						<a href="./about.html" class="cta-btn"
+							>LEARN MORE ABOUT US!</a
+						>
+					</div>
+				</div>
+
+				<div class="carousel">
+					<div class="scroll-btn" id="leftbtn">&#10094;</div>
+					<div class="carousel-img">
+						<img
+							id="left-img"
+							class="img"
+							src="./images/home_slideshow/CowsEating.jpg"
+							alt="Cows Eating"
+						/>
+					</div>
+					<div class="carousel-img">
+						<img
+							id="mid-img"
+							class="img"
+							src="./images/home_slideshow/cow-and-baby.jpg"
+							alt="Mom Cow and Newborn baby"
+						/>
+					</div>
+					<div class="carousel-img">
+						<img
+							id="right-img"
+							class="img"
+							src="./images/home_slideshow/horse-grazing.jpg"
+							alt="Horse Grazing"
+						/>
+					</div>
+					<div class="scroll-btn" id="rightbtn">&#10095;</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="logo">
+					<a href="./index.html#">
+						<img
+							src="./images/BarthelWhite.svg"
+							height="150"
+							class="body-logo"
+							alt="Barthel Land and Cattle"
+						/>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<script src="./script/main.js"></script>
+	</body>
+</html>

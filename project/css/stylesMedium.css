@@ -1,0 +1,47 @@
+#mid-img{
+    display: none;
+}
+
+#contact-img{
+    width: 300px;
+    height: 400px; 
+}
+
+
+input[type=text], select, input[type=email], textarea {
+    padding: 6px 10px;
+    margin: 6px 0;
+}
+    
+input[type=submit] {
+    width: 50%;
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Red Rose', sans-serif;
+}
+    
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+    
+#form {
+    height: 385px;
+    margin: 0 15px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+.about-img{
+    width: 50%;
+    height: fit-content;
+}
+

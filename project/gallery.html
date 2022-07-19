@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Barthel Land and Cattle | Photo Gallery</title>
+		<link
+			rel="shortcut icon"
+			href="./images/BarthelWhite.svg"
+			type="image/x-icon"
+		/>
+		<!-- Wide -->
+		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- Medium -->
+		<link
+			rel="stylesheet"
+			media="only screen and (max-width:1330px)"
+			href="./css/stylesMedium.css"
+		/>
+		<!-- Narrow -->
+		<link
+			rel="stylesheet"
+			media="only screen and (max-width:970px)"
+			href="./css/stylesNarrow.css"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="landingGallery">
+				<header>
+					<div
+						class="logo"
+						style="background-color: rgba(0, 0, 0, 0.5)"
+					>
+						<a href="./index.html">
+							<img
+								src="./images/BarthelWhite.svg"
+								id="navLogoImg"
+								alt="Barthel Land and Cattle"
+							/>
+						</a>
+					</div>
+
+					<!-- Regular Nav -->
+					<nav>
+						<ul>
+							<li>
+								<a href="./index.html">HOME</a>
+							</li>
+							<li><a href="./about.html">ABOUT</a></li>
+							<li><a href="./contact.html">CONTACT</a></li>
+							<li>
+								<a href="./gallery.html#" class="current-page"
+									>GALLERY</a
+								>
+							</li>
+							<li><a href="./events.html">EVENTS</a></li>
+						</ul>
+					</nav>
+
+					<!-- Mobile nav -->
+					<div id="menu">
+						<ul>
+							<li><a href="./index.html">HOME</a></li>
+							<li><a href="./about.html">ABOUT</a></li>
+							<li><a href="./contact.html">CONTACT</a></li>
+							<li><a href="./gallery.html#">GALLERY</a></li>
+							<li><a href="./events.html">EVENTS</a></li>
+						</ul>
+					</div>
+					<div id="hamburger-menu">
+						<div class="bar-white" id="top-bar"></div>
+						<div class="bar-white" id="mid-bar"></div>
+						<div class="bar-white" id="bot-bar"></div>
+					</div>
+				</header>
+				<div id="scroll-down">
+					<span class="arrow-down"> </span>
+					<span id="scroll-title"> Scroll down </span>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="mid-section">
+					<img
+						src="./images/BarthelWhite.svg"
+						height="150"
+						class="body-logo"
+						alt="Barthel Land and Cattle"
+					/>
+					<h1 class="section-title" id="gallery-title">
+						Our Favorites
+					</h1>
+					<hr class="hr1" />
+					<div class="carousel" style="margin-top: 100px">
+						<div class="scroll-btn" id="leftbtn">&#10094;</div>
+						<div class="carousel-img">
+							<img
+								id="left-img"
+								class="img"
+								src="./images/gallery_images/snowyhorses.jpg"
+								alt="Horses in Snow"
+							/>
+						</div>
+						<div class="carousel-img">
+							<img
+								id="mid-img"
+								class="img"
+								src="./images/gallery_images/austin-alan.jpg"
+								alt="Austin and Alan"
+							/>
+						</div>
+						<div class="carousel-img">
+							<img
+								id="right-img"
+								class="img"
+								src="./images/gallery_images/jan-alan.jpg"
+								alt="Jan and Alan"
+							/>
+						</div>
+						<div class="scroll-btn" id="rightbtn">&#10095;</div>
+					</div>
+					<h1 class="section-title">
+						Other Galleries
+					</h1>
+					<hr class="hr1" />
+					<div class="galleries">
+						<div class="gallery" id="gallery1">
+							<img
+								src="./images/gallery_images/snowyhorses.jpg"
+								alt="Horses in Snow"
+							/>
+							<div class="middle">
+								<h2>Branding 2020</h2>
+								<h3>Click to load...</h3>
+							</div>
+						</div>
+						<div class="gallery" id="gallery2">
+							<img
+								src="./images/home_slideshow/CowsEating.jpg"
+								alt="Cows Eating"
+							/>
+							<div class="middle">
+								<h2>Cows</h2>
+								<h3>Click to load...</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="logo">
+					<a href="./index.html">
+						<img
+							src="./images/BarthelWhite.svg"
+							height="150"
+							class="body-logo"
+							alt="Barthel Land and Cattle"
+						/>
+					</a>
+				</div>
+			</footer>
+			<script src="./script/gallery.js"></script>
+		</div>
+	</body>
+</html>
